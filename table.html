@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>لیست کارها</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>لیست کارهای ثبت‌شده</h1>
+    <a href="index.html" class="link">بازگشت به فرم</a>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>تاریخ</th>
+          <th>شماره</th>
+          <th>فیوژن</th>
+          <th>پیکتل</th>
+          <th>کر</th>
+          <th>نوع کابل</th>
+          <th>رنگ</th>
+          <th>توضیحات</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="table.js"></script>
+</body>
+</html>
